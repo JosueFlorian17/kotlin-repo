@@ -40,7 +40,7 @@
 }
  */
 
-fun main () {
+/*fun main () {
 
     val mystring= """
          Hola
@@ -60,3 +60,59 @@ fun main () {
 
 }
 
+ */
+
+/*
+fun main (){
+
+    val currentday = "Tuesday"
+
+    when (currentday){
+
+        "Monday" -> println("On $currentday, the opening hours are: 8 AM to 12 PM")
+        "Tuesday" -> println("On $currentday, the opening hours are: 8 AM to 6 PM")
+    }
+}
+ */
+
+
+
+/*
+fun main() {
+    var asteriscos = 10
+    var espacios = 0
+
+    for (i in 1..9) {
+        print(" ".repeat(espacios))
+        println("*".repeat(asteriscos))
+        asteriscos -= 1
+        espacios += 1
+    }
+}
+
+ */
+
+
+
+fun main() {
+//1
+    for (i in 1..5) {
+//2
+        val numberOfSpaces = i-1
+//3
+        for (j in 1..numberOfSpaces) {
+//4
+            print(" ")
+        }
+//5
+        val numberOfStars = 6 - i
+
+//6
+        for (j in 1..numberOfStars) {
+//7
+            print("*")
+        }
+//8
+        println()
+    }
+}
